@@ -1,0 +1,15 @@
+
+{
+  "functions": {
+    "source": "functions"
+  },
+  "hosting": {
+    "site":"chats-ps",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
